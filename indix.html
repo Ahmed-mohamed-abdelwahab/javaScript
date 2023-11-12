@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #210124;
+        }
+
+        .continer {
+            box-shadow:inset rgb(20, 11, 11);
+            width: 350px;
+            background-color: #92049F;
+            border-radius: 5px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .continer input {
+            width: 100%;
+            padding: 10px;
+            border-bottom: 2px solid #777777;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        #btna {
+            border: none !important;
+    cursor: pointer; 
+            background-color: #32cd9c;
+            margin: 15px 0;
+            font-size: 16px;
+            width: 100%;
+            padding: 14px;
+        }
+
+        #btna:hover{
+    background-color: #1f7d5f;
+    color: white;
+}
+    </style>
+    <div class="continer">
+        <form onsubmit="goo()">
+            <input type="text" id="nam" placeholder=" enter your name">
+            <input type="email" id="email" placeholder=" enter your email">
+            <input type="password" id="pas" placeholder=" password">
+            <input type="password" id="pas" placeholder=" confirm password">
+            <button type="text" id="btna">REGISTER </button>
+            <div>
+                <a href="">Alreuly have account ? login</a>
+            </div>
+    </div>
+    </form>
+    <script src="indix.js"></script>
+</body>
+
+</html>
